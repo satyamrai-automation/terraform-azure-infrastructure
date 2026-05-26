@@ -1,0 +1,98 @@
+# Terraform Provider Setup
+
+This project demonstrates how to configure and initialize Terraform providers for Infrastructure as Code (IaC) deployments.
+
+---
+
+## 🚀 Overview
+
+The purpose of this project is to learn and practice:
+
+- Terraform provider configuration
+- Azure Provider setup
+- Terraform initialization
+- Infrastructure as Code basics
+- Terraform workflow commands
+
+---
+
+## 🛠️ Technologies Used
+
+- Terraform
+- Microsoft Azure
+- Azure CLI
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```bash
+terraform-provider-setup/
+│
+├── provider.tf
+└── README.md
+```
+
+---
+
+## ⚙️ Provider Configuration
+
+This project uses the AzureRM provider.
+
+Example:
+
+```hcl
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 4.0"
+    }
+  }
+}
+
+provider "azurerm" {
+  features {}
+}
+```
+
+---
+
+## 🚀 Terraform Commands
+
+### Initialize Terraform
+
+```bash
+terraform init
+```
+
+### Validate Configuration
+
+```bash
+terraform validate
+```
+
+### Format Code
+
+```bash
+terraform fmt
+```
+
+---
+
+## 📚 Learning Goals
+
+- Understanding Terraform providers
+- Setting up Azure provider
+- Managing provider versions
+- Terraform initialization process
+- Infrastructure as Code fundamentals
+
+---
+
+## 👨‍💻 Author
+
+Satyam Rai
+
+GitHub: https://github.com/satyamrai-automation
