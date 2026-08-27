@@ -258,7 +258,7 @@ If you have ideas to improve the repository, feel free to open an Issue or submi
 
 DevOps Engineer • Cloud Engineer • Terraform • Microsoft Azure
 
-> Learning in public. Building with code. Automating the cloud.
+> Learning in public. Building with code. Automating the azure cloud.
 
 ---
 
