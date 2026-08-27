@@ -96,7 +96,7 @@ terraform-azure-infrastructure/
 - Security by Default
 - Documentation Driven
 - Version Controlled Infrastructure
-- Continuous Learning
+
 
 ---
 
